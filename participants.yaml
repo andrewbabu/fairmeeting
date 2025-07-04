@@ -1,0 +1,46 @@
+# HARD CASE SCENARIO: Global Team with Extreme Time Zone Spread
+# This represents a challenging real-world scenario with participants
+# spread across different continents with conflicting work patterns
+
+participants:
+  # Americas - West Coast (UTC-8)
+  - name: "Alice Rodriguez"
+    tz: "America/Los_Angeles"
+    work_start: "08:00"
+    work_end: "16:30"
+    weight: 1.2  # Senior team member
+
+  # Americas - East Coast (UTC-5)
+  - name: "Bob Johnson"
+    tz: "America/New_York"
+    work_start: "09:30"
+    work_end: "18:00"
+    weight: 1.0
+
+  # Europe - London (UTC+0)
+  - name: "Charlie Smith"
+    tz: "Europe/London"
+    work_start: "08:30"
+    work_end: "17:00"
+    weight: 1.1  # Team lead
+
+  # Asia - India (UTC+5:30)
+  - name: "Fatima Sharma"
+    tz: "Asia/Kolkata"
+    work_start: "10:00"
+    work_end: "19:00"
+    weight: 1.3  # Critical team member
+
+  # Asia - Japan (UTC+9)
+  - name: "Hiroshi Tanaka"
+    tz: "Asia/Tokyo"
+    work_start: "09:00"
+    work_end: "17:30"
+    weight: 1.0
+
+  # Oceania - Australia (UTC+10)
+  - name: "Jack Thompson"
+    tz: "Australia/Sydney"
+    work_start: "08:30"
+    work_end: "16:30"
+    weight: 0.8  # Part-time consultant
